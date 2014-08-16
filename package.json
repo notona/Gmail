@@ -1,0 +1,19 @@
+{
+  "name": "Gmail",
+  "version": "0.1.0",
+  "main": "src/index.html",
+  "window": {
+    "toolbar": false,
+    "fullscreen": false,
+    "resizable": true,
+    "show": false
+  },
+  "webkit": {
+    "plugin": true,
+    "page-cache": true
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-node-webkit-builder": "^0.2.1"
+  }
+}
