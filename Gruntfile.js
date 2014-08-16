@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         nodewebkit: {
-            src: ['package.json', 'index.html', 'lib/winstate.js'],
+            src: ['package.json', 'src/*'],
         }
     });
 
