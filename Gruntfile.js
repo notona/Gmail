@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         nodewebkit: {
-            src: ['package.json', 'src/*'],
+            src: ['package.json', 'src/**'],
         }
     });
 
