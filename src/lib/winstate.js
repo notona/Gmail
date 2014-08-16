@@ -152,7 +152,7 @@ win.window.addEventListener('resize', function () {
 
 win.on('close', function () {
     saveWindowState();
-    this.close(true, true);
+    this.close(true);
 });
 
 
