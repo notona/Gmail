@@ -5,7 +5,7 @@ only open the Gmail
 
 ### Build
 ```bash
-$grunt
+$ grunt
 ```
 
 ### Licence
